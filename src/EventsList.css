@@ -1,0 +1,8 @@
+.events-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+    gap: 1px; /* Gap between columns */
+    margin-left: 80px;
+    
+  }
+  

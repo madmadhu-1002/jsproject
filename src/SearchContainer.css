@@ -1,0 +1,22 @@
+.search-container {
+    position: relative;
+    padding-top: 2%;
+    padding-left: 2%;
+  }
+  
+  .search-input {
+    padding: 10px 30px 10px 10px; /* Adjust padding to make space for the icon */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-10%);
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,56 @@
+/* EventCard.css */
+
+.event-card {
+
+
+  margin-right: 15px;
+  position: relative; /* Set position relative for absolute positioning inside */
+  width: 250px;
+  height: 325px;
+}
+
+
+
+.event-image {
+  position: relative;
+  width: 250px;
+  height: 350px; /* Maintain image aspect ratio */
+  
+  
+}
+
+.image-details{
+  color: #fffefd;
+}
+
+
+
+
+
+.event-name{
+  position: absolute;
+  left: 8%;
+  top: 70%;
+  
+}
+.location {
+  position: absolute;
+  left: 8%;
+  top: 85%;
+ 
+}
+
+.date{
+  position: absolute;
+  right: 8%;
+  bottom: 0;
+  top: 75%;
+  
+}
+.distance {
+  position: absolute;
+  right: 8%;
+  bottom: 0;
+  top: 85%;
+  
+}

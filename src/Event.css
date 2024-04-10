@@ -1,0 +1,59 @@
+
+
+ .event-card1 {
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 15px;
+    position: relative; /* Set position relative for absolute positioning inside */
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 15px;
+  }
+  
+  .image-container1 {
+    position: absolute; /* Create a relative positioning context */
+    border-radius: 8px; /* Ensure border-radius applies to the image container */
+    overflow: hidden; /* Hide overflowing content within the container */
+  }
+  
+  .event-image1 {
+    width: 300px;
+    height: 200px; /* Maintain image aspect ratio */
+    display: block;
+  }
+  
+  .image-details1{
+    color: #0c0c0c;
+  }
+
+  .date1{
+    position: absolute;
+    bottom: -15px;
+    left: 10px;
+    color: aliceblue;
+    
+  }
+  .distance1{
+    color: rgb(20, 20, 20);
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+  }
+  .location1{
+    color: rgb(11, 11, 11);
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+  }
+  .event-name1{
+    color: rgb(7, 7, 7);
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+  }
+
+  
+  
+  

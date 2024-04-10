@@ -3,7 +3,11 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: rgb(37, 37, 39);
+  color: black;
+  background-color: white;
 }
+
 
 .logo {
   height: 6em;
@@ -39,4 +43,21 @@
 
 .read-the-docs {
   color: #888;
+}
+.upcoming-events{
+  position: relative;
+    left: 0;
+    color: black;
+    width: 200px;
+    margin-left: 80px;
+}
+.main-image{
+  width: 100%;
+}
+
+.events-total{
+  position: relative;
+  top: -200px;
+  
+  
 }

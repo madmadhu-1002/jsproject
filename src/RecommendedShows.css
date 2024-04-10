@@ -1,0 +1,43 @@
+.rec{
+    
+    display: flex;
+    justify-content: space-between; /* Add space between flex items */
+    overflow-x:auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping of child elements */
+    padding: 10px;
+    height: 500px;
+    margin-left: 70px;
+    margin-right: 0px;
+}
+
+  
+  
+  
+
+.rec::-webkit-scrollbar{
+    width:0;
+}
+
+.recm>h4{
+    position: relative;
+    left: 80px;
+    color: white;
+    width: 200px;
+    
+}
+.recm>a{
+    position: relative;
+    right: -500px;
+    top: -40px;
+    color: rgb(238, 243, 243);
+    text-decoration: underline;
+    width: 200px;
+    
+    
+}
+.recm{
+    position: relative;
+    height: 400px;
+    
+
+}

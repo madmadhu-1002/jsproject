@@ -1,0 +1,44 @@
+.book-us-now{
+    color: red;
+    padding-right: 200px;
+    
+}
+.nav-bar{
+    display: flex;
+}
+.category-container{
+    padding-top: 2%;
+}
+
+.nav-bar2{
+    display: flex;
+}
+.nav-bar2 h4{
+    padding-right: 30px;
+}
+.location-icon {
+    margin-right: 5px; /* Add space between icon and location text */
+  }
+  
+  
+  
+  .location-direction {
+    margin-left: 5px; /* Add space between ">" symbol and other content */
+    margin-right: 200px;
+  }
+  .sign-in{
+    margin-top: 2%;
+    padding: 0;
+    height: 40px;
+    width: 80px;
+    margin-left: 2%;
+  }
+  .favorites{
+    margin-top: 3%;
+    margin-left: 4%;
+    width: 150px;
+  }
+  .love-icon{
+    padding-right: 4%;
+  }
+  
