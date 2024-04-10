@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 import Event from './Event'; // Assuming Event component is in the same directory
 import './EventsList.css'; // Import the CSS file for the parent component
@@ -11,6 +11,7 @@ const EventsList = () => {
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [hasMorePages, setHasMorePages] = useState(true);
+  const eventsContainerRef = useRef(null);
 
   const formatDate = (dateString) => {
     const options = { month: 'long', day: 'numeric', year: 'numeric' };
@@ -79,18 +80,21 @@ const EventsList = () => {
     fetchEvents();
   }, []);
   const handleScroll = (e) => {
-    const bottom = e.target.scrollHeight - e.target.scrollTop === e.target.clientHeight;
-    console.log(e.target.scrollHeight+""+e.target.scrollTop+""+e.target.clientHeight)
-    
-    if (bottom && !loading && hasMorePages){
+    const eventsContainer = eventsContainerRef.current;
+    if (
+      eventsContainer.scrollHeight - eventsContainer.scrollTop ===
+        eventsContainer.clientHeight &&
+      !loading &&
+      hasMorePages
+    ) {
       fetchEvents();
-      console.log(events);
     }
   };
   
  
+ 
   return (
-    <div className="events-container" onScroll={handleScroll}>
+    <div className="events-container" ref={eventsContainerRef} onScroll={handleScroll}>
       {events.map((event, index) => (
         
         <Event
