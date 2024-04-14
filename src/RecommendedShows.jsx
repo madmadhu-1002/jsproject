@@ -92,7 +92,7 @@ const RecommendedShows = () => {
   return (
     <div className='recm' onScroll={handleScroll}>
     <h4>Recommended shows    <FontAwesomeIcon icon={faArrowRight} className="arrow-icon" /></h4>
-    <a href=''>see all</a>
+    <a className='seeall' href=''>see all</a>
     <div className='rec'>
         
       {events.map((event, index) => (

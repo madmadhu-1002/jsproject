@@ -14,11 +14,12 @@ function App() {
     <>
     <div className='total'>
     <NavBar />
-    <img src='Banner.svg' className='main-image' alt='imaeg'/>
+    <img src='Banner.jpg' className='main-image' alt='imaeg'/>
     <div className='events-total'>
     
     <Recommendedshows />
     <h3 className='upcoming-events'>Upcoming Events <FontAwesomeIcon icon={faArrowRight} className="arrow-icon" /></h3>
+    <a className='seeall' href=''>see all</a>
     <EventsList />
     </div>
     

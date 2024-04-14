@@ -19,6 +19,9 @@
 .location-icon {
     margin-right: 5px; /* Add space between icon and location text */
   }
+  .lc{
+    display: none;
+  }
   
   
   
@@ -42,3 +45,26 @@
     padding-right: 4%;
   }
   
+  @media screen and (max-width: 768px) {
+    .nav-bar{
+      border: 3px dashed blue;
+      
+      width: 100%;
+    }
+    
+    .favorites{
+      display: none;
+    }
+    .sign-in{
+      display: none;
+    }
+    .nav-bar2{
+      overflow-x: auto;
+    }
+    .lc{
+      
+    }
+    .lc1{
+      display: none;
+    }
+  }

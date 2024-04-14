@@ -41,3 +41,20 @@
     
 
 }
+@media screen and (max-width: 768px) {
+    .seeall{
+    position: relative;
+    left: 40%;
+    }
+    .rec{
+        margin: 0;
+        margin-left: 2%;
+    }   
+    .recm>h4{
+        position: relative;
+        left: 2%;
+        color: white;
+        width: 200px;
+        
+    }                                                            
+}

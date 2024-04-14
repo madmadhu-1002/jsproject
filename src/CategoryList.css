@@ -30,4 +30,8 @@
   .category-container:hover .category-list {
     display: block; /* Show list on hover */
   }
-  
+  @media screen and (max-width: 768px) {
+    .category-container{
+      display: none;
+    }
+  }

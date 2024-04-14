@@ -46,6 +46,7 @@
 }
 .upcoming-events{
   position: relative;
+    padding-top: 2%;
     left: 0;
     color: black;
     width: 200px;
@@ -53,6 +54,7 @@
 }
 .main-image{
   width: 100%;
+  
 }
 
 .events-total{
@@ -60,4 +62,40 @@
   top: -200px;
   
   
+}
+
+.seeall{
+  color: black;
+  position: relative;
+  top: -40px;
+  left: 40%;
+}
+
+
+@media screen and (max-width: 768px) {
+  #root{
+    background-color: white;
+    border: 3px solid red;
+    width: 100%;
+    padding: 5%;
+  }
+  .upcoming-events{
+    position: relative;
+    left: 0;
+    color: black;
+    width: 200px;
+    margin-left: 1%;
+    margin-top: 10%;
+    
+  }
+  .seeall{
+    color: rgb(11, 11, 11);
+    position: absolute;
+    top: -40px;
+    text-decoration: underline;
+  }
+  .main-image{
+    width: 100%;
+    height: 600px;
+  }
 }

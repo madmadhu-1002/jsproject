@@ -1,8 +1,35 @@
 .events-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
-    gap: 1px; /* Gap between columns */
-    margin-left: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+  gap: 1px; /* Gap between columns */
+  margin-left: 80px;
+  overflow-y: auto; /* Enable vertical scrolling */
+    height: 500px;
     
   }
+
+  .events-container::-webkit-scrollbar{
+    width:0;
+}
   
+
+@media screen and (max-width: 768px) {
+  .events-container{
+    display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  background-color: white;
+  margin: 0;
+  width: fit-content;
+  height: 600px;
+  position: inherit;
+  left: 3%;
+  right: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+  
+  }
+  .rec::-webkit-scrollbar{
+    width:0;
+}
+}

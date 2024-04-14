@@ -11,6 +11,9 @@ const NavBar = () => {
     <>
     <div className='nav-bar'>
         <h2 className='book-us-now'>BookUsNow</h2>
+        <h6 className='lc'><FontAwesomeIcon icon={faMapMarkerAlt} className="location-icon" />
+ Mumbai, India <span className="location-direction">&#62;</span></h6>
+      
         <CategoryList />
         <SearchContainer />
         <h4 className='favorites'><FontAwesomeIcon icon={faHeart} className="love-icon" />Favorites</h4>
@@ -18,7 +21,7 @@ const NavBar = () => {
         
     </div>
     <div className='nav-bar2'>
-        <h6><FontAwesomeIcon icon={faMapMarkerAlt} className="location-icon" />
+        <h6 className='lc1'><FontAwesomeIcon icon={faMapMarkerAlt} className="location-icon" />
  Mumbai, India <span className="location-direction">&#62;</span></h6>
         <h4>Live shows</h4>
         <h4>Streams</h4>
