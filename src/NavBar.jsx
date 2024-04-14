@@ -2,7 +2,7 @@ import React from 'react'
 import CategoryList from './CategoryList'
 import './NavBar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMapMarkerAlt , faHeart} from '@fortawesome/free-solid-svg-icons';
+import { faMapMarkerAlt , faHeart, faSearch , faUser } from '@fortawesome/free-solid-svg-icons';
 
 import SearchContainer from './SearchContainer';
 
@@ -11,6 +11,9 @@ const NavBar = () => {
     <>
     <div className='nav-bar'>
         <h2 className='book-us-now'>BookUsNow</h2>
+        <h4 className='lc2'><FontAwesomeIcon icon={faMapMarkerAlt} className="location-icon" />
+ Mumbai,India<span className="location-direction">&#62;</span></h4>
+        <h3 className='icons'><FontAwesomeIcon icon={faHeart} className="item" /><FontAwesomeIcon icon={faSearch} className='item'/><FontAwesomeIcon icon={faUser} className='item'/></h3>
         <h6 className='lc'><FontAwesomeIcon icon={faMapMarkerAlt} className="location-icon" />
  Mumbai, India <span className="location-direction">&#62;</span></h6>
       
