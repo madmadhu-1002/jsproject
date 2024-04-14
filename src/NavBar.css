@@ -54,7 +54,7 @@
   
   @media screen and (max-width: 768px) {
     .nav-bar{
-      border: 1px dashed white;
+      
       
       width: 100%;
     }
@@ -88,8 +88,9 @@
       display: flex;
       justify-content: space-between;
       position: absolute;
-      right: 15%;
+      right: 18%;
       top: 2%;
+      color: gray;
       
 
     }
