@@ -6,9 +6,12 @@
   background-color: rgb(37, 37, 39);
   color: black;
   background-color: white;
+  
 }
 
-
+.total{
+  height: 1800px;
+}
 .logo {
   height: 6em;
   padding: 1.5em;

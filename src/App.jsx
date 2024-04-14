@@ -6,6 +6,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Recommendedshows from './RecommendedShows'
 import EventsList from './EventsList'
 import NavBar from './NavBar';
+import BannerText from './BannerText';
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
     <>
     <div className='total'>
     <NavBar />
+    <BannerText />
     <img src='Banner.jpg' className='main-image' alt='imaeg'/>
     <div className='events-total'>
     
